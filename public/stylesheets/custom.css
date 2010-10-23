@@ -1,66 +1,58 @@
 .container {
-  width: 500px;
+  width: 710px;
 }
 
 body {
-  background: #067;
+  background-color: gray;
 }
 
 header {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
-
-
-/*header img {
+header img {
   padding: 1em;
-  background: #fff;
+  background: gray;
 }
 
 section {
-  margin-top: 9em;
+  margin-top: 1em;
   font-size: 120%;
   padding: 20px;
-  background: #fff;
-}*/
-
-
+  background: gray;
+}
 
 section h1 {
   font-size: 500%;
 }
 
-
-
 /* Links */
 
-
 a {
-  color: #088;
+  color: #09c;
   text-decoration: none;
 }
 
-
 a:hover {
-  color: #064;
+  color: #069;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #065;
+  color: #069;
 }
+
 
 
 /* Navigation */
 
-nav 
-{
+nav {
   float: right;
 }
 
 nav {
   background-color: white;
-  padding: 0.50em;
+  padding: 0 0.7em;
   white-space: nowrap;
 }
 
@@ -88,6 +80,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+
 /* Sign up button */
 
 a.signup_button {
@@ -106,6 +99,29 @@ a.signup_button {
   -moz-border-radius:    10px;
   -webkit-border-radius: 10px;
   border-radius:         10px;
+}
+/* User show page */
+
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+td.main {
+  width: 70%;
+  padding: 1em;
+}
+
+td.sidebar {
+  width: 30%;
+  padding: 1em;
+  vertical-align: center;
+  background: #ffc;
+}
+
+.profile img.gravatar {
+  border: 10px solid #900;
+  margin-bottom: -15px;
 }
 
 
