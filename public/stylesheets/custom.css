@@ -120,7 +120,7 @@ td.sidebar {
 }
 
 .profile img.gravatar {
-  border: 10px solid #900;
+  border: 5px solid #900;
   margin-bottom: -15px;
 }
 
@@ -167,6 +167,14 @@ div.field, div.actions {
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
+}
+
+ul.users {
+  margin-top: 1em;
+}
+
+.users li {
+  list-style: none;
 }
 
 
