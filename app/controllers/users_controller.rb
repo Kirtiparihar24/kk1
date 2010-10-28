@@ -27,8 +27,8 @@ class UsersController < ApplicationController
     end
     end
 	def edit
-    @user = User.find(params[:id])
-    @title = "Edit user"
+	  @user = User.find(params[:id])
+	  @title = "Edit user"
     end
      def update
     @user = User.find(params[:id])
@@ -40,7 +40,7 @@ class UsersController < ApplicationController
       render 'edit'
     end
   end
-   def index
+   def index	
     @title = "All users"
     @users = User.paginate(:page => params[:page])
   end

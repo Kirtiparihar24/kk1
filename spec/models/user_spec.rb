@@ -135,6 +135,7 @@ describe "admin attribute" do
       @user.should be_admin
     end
   end
+
 end
 
 
