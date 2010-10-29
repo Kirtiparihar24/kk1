@@ -20,6 +20,10 @@ module SessionsHelper
     cookies.delete(:remember_token)
     current_user = nil
   end
+   def authenticate
+    deny_access unless signed_in?
+  end
+
 def deny_access
     store_location
     redirect_to signin_path, :notice => "Please sign in to access this page."
@@ -36,6 +40,7 @@ def deny_access
   end
 
   def deny_access
+	store_location
     redirect_to signin_path, :notice => "Please sign in to access this page."
   end
 
